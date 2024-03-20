@@ -12,7 +12,7 @@ import {
 } from "../../api/api";
 import { FAQs } from "../FAQs/FAQs";
 import Footer from "../Footer/Footer";
-import AudioBar from "../Audio Bar/AudioBar";
+// import AudioBar from "../Audio Bar/AudioBar";
 
 function HomePage() {
   let [topAlbum, setTopAlbum] = useState([]);
@@ -49,7 +49,8 @@ function HomePage() {
       <FAQs />
       <hr style={{ backgroundColor: "gray", border: "1px solid gray" }} />
       {/* <Footer /> */}
-      <hr /> <AudioBar song={{}}/>
+      <hr /> 
+      {/* <AudioBar song={{}}/> */}
     </>
   );
 }
